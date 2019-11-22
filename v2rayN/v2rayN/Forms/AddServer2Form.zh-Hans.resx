@@ -129,6 +129,9 @@
   <data name="label1.Text" xml:space="preserve">
     <value>地址(address)</value>
   </data>
+  <data name="label_weight.Text" xml:space="preserve">
+    <value>权重(weight)</value>
+  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>服务器</value>
   </data>

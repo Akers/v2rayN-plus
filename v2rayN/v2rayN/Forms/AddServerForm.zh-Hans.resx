@@ -298,4 +298,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>编辑或添加[VMess]服务器</value>
   </data>
+  <data name="label_weight.Text" xml:space="preserve">
+    <value>权重(weight)</value>
+  </data>
 </root>

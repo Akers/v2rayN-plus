@@ -346,4 +346,7 @@
   <data name="StartPacFailed" xml:space="preserve">
     <value>PAC failed to start. Pls with an administrator.</value>
   </data>
+  <data name="LvWeight" xml:space="preserve">
+    <value>server weight</value>
+  </data>
 </root>

@@ -362,6 +362,7 @@ namespace v2rayN.Mode
             configType = (int)EConfigType.Vmess;
             testResult = string.Empty;
             subid = string.Empty;
+            weight = 0;
         }
 
         public string getSummary()
@@ -539,6 +540,14 @@ namespace v2rayN.Mode
         /// SubItem id
         /// </summary>
         public string subid
+        {
+            get; set;
+        }
+
+        /// <summary>
+        /// weight for loadBalanc 
+        /// </summary>
+        public int weight
         {
             get; set;
         }

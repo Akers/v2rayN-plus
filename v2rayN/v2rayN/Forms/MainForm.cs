@@ -163,6 +163,7 @@ namespace v2rayN.Forms
             lvServers.Columns.Add(UIRes.I18N("LvTransportProtocol"), 70, HorizontalAlignment.Left);
             lvServers.Columns.Add(UIRes.I18N("LvSubscription"), 50, HorizontalAlignment.Left);
             lvServers.Columns.Add(UIRes.I18N("LvTestResults"), 70, HorizontalAlignment.Left);
+            lvServers.Columns.Add(UIRes.I18N("LvWeight"), 30, HorizontalAlignment.Left);
 
             if (statistics != null && statistics.Enable)
             {

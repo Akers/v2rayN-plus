@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddServerForm));
             this.btnClose = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.numericUpDownWeight = new System.Windows.Forms.NumericUpDown();
+            this.label_weight = new System.Windows.Forms.Label();
             this.btnGUID = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -80,6 +82,7 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.MenuItemImportClipboard = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownWeight)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.panTlsMore.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -96,6 +99,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.numericUpDownWeight);
+            this.groupBox1.Controls.Add(this.label_weight);
             this.groupBox1.Controls.Add(this.btnGUID);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.groupBox2);
@@ -118,6 +123,16 @@
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
+            // 
+            // numericUpDownWeight
+            // 
+            resources.ApplyResources(this.numericUpDownWeight, "numericUpDownWeight");
+            this.numericUpDownWeight.Name = "numericUpDownWeight";
+            // 
+            // label_weight
+            // 
+            resources.ApplyResources(this.label_weight, "label_weight");
+            this.label_weight.Name = "label_weight";
             // 
             // btnGUID
             // 
@@ -448,6 +463,7 @@
             this.Load += new System.EventHandler(this.AddServerForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownWeight)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.panTlsMore.ResumeLayout(false);
@@ -512,5 +528,7 @@
         private System.Windows.Forms.Panel panTlsMore;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label_weight;
+        private System.Windows.Forms.NumericUpDown numericUpDownWeight;
     }
 }

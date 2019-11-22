@@ -47,6 +47,7 @@ namespace v2rayN.Forms
             txtPath.Text = vmessItem.path;
             cmbStreamSecurity.Text = vmessItem.streamSecurity;
             cmbAllowInsecure.Text = vmessItem.allowInsecure;
+            numericUpDownWeight.Value = vmessItem.weight;
         }
 
 
@@ -159,6 +160,8 @@ namespace v2rayN.Forms
             vmessItem.path = path.Replace(" ", "");
             vmessItem.streamSecurity = streamSecurity;
             vmessItem.allowInsecure = allowInsecure;
+            vmessItem.weight = (int)numericUpDownWeight.Value;
+
 
             if (ConfigHandler.AddServer(ref config, vmessItem, EditIndex) == 0)
             {

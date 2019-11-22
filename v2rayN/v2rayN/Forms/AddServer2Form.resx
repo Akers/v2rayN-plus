@@ -123,6 +123,9 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Address</value>
   </data>
+  <data name="label_weight.Text" xml:space="preserve">
+    <value>Weight</value>
+  </data>
   <data name="&gt;&gt;txtAddress.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
